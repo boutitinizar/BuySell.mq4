@@ -3,24 +3,23 @@
 //|                                         Developed by Boutiti Nizar |
 //|                                     |
 //+------------------------------------------------------------------+
-#property copyright "Copyright © 2015, Boutiti Nizar"
+#property copyright "Copyright ï¿½ 2015, Boutiti Nizar"
 #property link      " "
  
  
-extern bool buyorder  = FALSE;
-extern bool sellorder = FALSE;
+extern bool buyorder              = FALSE;
+extern bool sellorder             = FALSE;
+extern double Lots                = 1;
+extern int   Total_StopLoss       =   100000;
+extern int   Total_TakeProfit     =  5000;
 
-extern double Lots     = 1;
- extern int   Total_StopLoss =   100000;
- extern int   Total_TakeProfit=  5000;
-int MagicNumber = 999;
-int MaxORders = 20;
-string TradeComment="Boutiti Nizar EA 2014";
-int Slippage=2;
-
- double Poin;
- 
- bool stop = false;
+////////////////////////////////////////////////////////
+int MagicNumber                   = 999;
+int MaxORders                     = 20;
+string TradeComment               ="Boutiti Nizar EA 2014";
+int Slippage                      =2;
+double Poin;
+bool stop = false;
 
 //+------------------------------------------------------------------+
 //| Custom initialization function                                   |
