@@ -11,7 +11,7 @@ extern bool buyorder              = FALSE;
 extern bool sellorder             = FALSE;
 extern double Lots                = 1;
 extern int   Total_StopLoss       =   100000;
-extern int   Total_TakeProfit     =  5000;
+
 
 ////////////////////////////////////////////////////////
 int MagicNumber                   = 999;
@@ -20,6 +20,8 @@ string TradeComment               ="Boutiti Nizar EA 2014";
 int Slippage                      =2;
 double Poin;
 bool stop = false;
+
+
 
 //+------------------------------------------------------------------+
 //| Custom initialization function                                   |
