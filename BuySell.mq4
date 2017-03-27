@@ -1,6 +1,6 @@
 //+------------------------------------------------------------------+
 //|                                    BuySell.mq4|
-//|                                         Developed by Boutiti Nizar |
+//|                                         Developed by Boutiti Nizar 03/2017 |
 //|                                     |
 //+------------------------------------------------------------------+
 #property copyright "Copyright � 2015, Boutiti Nizar"
